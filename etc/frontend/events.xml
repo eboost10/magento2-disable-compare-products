@@ -1,3 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Eboost Team
+ * Copyright © 2023 Eboost.  All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="layout_load_before">
         <observer name="gl_layout_load_before" instance="\EBoost\DisableCompareProducts\Observer\LayoutLoadBefore" />

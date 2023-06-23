@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author Eboost Team
+ * Copyright © 2023 Eboost.  All rights reserved.
+ * See LICENSE.txt for license details.
+ */
 
 namespace EBoost\DisableCompareProducts\Observer;
 
