@@ -6,13 +6,10 @@
  * See LICENSE.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Block\Product\AbstractProduct">
         <plugin name="eboost_disablew_compare_products"
                 type="EBoost\DisableCompareProducts\Plugin\Magento\Catalog\Block\Product\AbstractProduct"
                 sortOrder="100" disabled="false"/>
     </type>
-
 </config>
