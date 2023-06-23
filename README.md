@@ -1,4 +1,4 @@
-# Galactic Labs - Disable Compare Products
+# EBoost - Disable Compare Products
 
 This simple module adds a new config value to the Catalog Recently Viewed/Compared Products admin section, allowing you to remove the compare products functionality.
 
@@ -61,4 +61,4 @@ This is a native Magento 2 feature. Just go to `Stores > Settings > Configuratio
 Please do open a pull request on GitHub should you want to contribute, or create an issue.
 
 ## License
-[MIT](https://opensource.org/licenses/MIT) - Do as you wish 👍
+[BSD-4-Clause](http://directory.fsf.org/wiki/License:BSD_4Clause) - Do as you wish 👍
